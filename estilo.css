@@ -1,0 +1,241 @@
+/*** Geral ***/
+
+body {
+	background-image: url(Imagens/16424.jpg);
+	font-family: "Trebuchet MS", "Verdana", san-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 600px;
+}
+
+#cabecalho hr {
+	position: absolute;
+	top: 100px;
+	width: 1400px;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+}
+
+/*** Cabeçalho ***/
+
+#cabecalho {
+	padding: 35px; 
+	text-align: center;
+}
+
+#iconecabecalho {
+	width: 50px;
+	position: absolute;
+	left: 50px;
+	top: 45px;
+}
+
+#cabecalho a {
+	font-family: "Nasalization", Verdana, san-serif;
+	font-size: 27px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#cabecalho a:hover {
+	padding-left: 17px;
+	padding-right: 17px;
+	font-weight: bold;
+	color: #993399;
+}
+
+/*** Corpo das páginas ***/
+
+.titulopagina {
+	font-family: Verdana;
+	font-size: 60px;
+	font-weight: bold;
+	color: #993399;
+	text-align: center;
+}
+
+.titulopagina2 {
+	font-family: Verdana;
+	font-size: 60px;
+	font-weight: bold;
+	color: #f16f0f;
+	text-align: center;
+}
+
+.bem-vindo {
+	text-align: center;
+	margin-left: 350px;
+	width: 800px;
+	margin-bottom: 100px; 
+}
+
+/*** Específico para página principal ***/
+
+#divnoticias {
+	position: absolute;
+	top: 170px;
+	left: 40px;
+	background: black;
+	width: 900px;
+}
+
+#divnoticias img {
+	margin-left: 50px;
+	width: 800px;
+}
+
+#divnoticias hr {
+	width: 900px;
+}
+
+.noticia {
+	text-align: center;
+}
+
+#divlateral {
+	position: absolute;
+	top: 170px;
+	right: 10px;
+	background-color: black;
+	width: 500px;
+}
+
+#redesocial img {
+	padding: 0px 25px;
+	width: 45px;
+}
+
+.titulolateral {
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+#redesocial hr {
+	width: 200px;
+}
+
+.titulolateral2 {
+	padding-left: 20px;
+	font-weight: 20px;
+	font-weight: bold;
+}
+
+#divlateral a:hover {
+	color: #993399;
+}
+
+/*** Especifico para a página de notícias ***/
+
+#divnoticias02 {
+	position: absolute;
+	top: 170px;
+	left: 250px;
+	background: black;
+	width: 900px;
+}
+
+#divnoticias02 img {
+	margin-left: 50px;
+	width: 800px;
+}
+
+#divnoticias02 hr {
+	width: 900px;
+}
+
+#divlateral02 {
+	position: absolute;
+	top: 170px;
+	right: 10px;
+	background-color: black;
+	width: 70px;
+}
+
+#redesocial02 img {
+	padding-bottom: 25px;
+	padding-left: 20px;
+	width: 45px;
+}
+
+/*** Específico para a página de curiosidades ***/
+
+#curiosidades {
+	width: 1350px;
+}
+
+#curiosidades img {
+	padding: 40px;
+	width: 500px;
+}
+
+/*** Específico para a página da galeria ***/
+
+#galeria img {
+	padding: 40px;
+}
+
+/*** Específica para a página da comunidade ***/
+
+#bodycomunidade {
+	background-image: url(Imagens/buraconegro02.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#tabelacomentarios {
+	border: 1px solid white;
+	width: 820px;
+	margin-left: 100px;
+}
+
+#comentarios {
+	font-size: 1.3em;
+	color: white;
+}
+
+input[type=text] {
+	width: 220px;
+}
+
+label {
+	padding-left: 60px;
+}
+
+
+#submitcomentario>input[type=text] {
+	height: 300px;
+	width: 800px;
+}
+
+#enviar {
+	position: absolute;
+	top: 497px;
+	left: 350px;
+}
+
+/*** ETC ***/
+
+#construcao {
+	font-family: Verdana;
+	font-size: 60px;
+	font-weight: bold;
+	color: #993399;
+	text-align: center;
+}
+
+#imgconstrucao {
+	width: 200px;
+	padding-left: 650px;
+}
